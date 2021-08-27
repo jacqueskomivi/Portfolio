@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Krona+One&family=Michroma&family=Questrial&family=Teko&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial';
+    box-sizing: border-box;
+    background: #12202A;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: ridge 1px #0097e6;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    padding: 22px;
+    color: #fff;
+    font-weight: 1000;
+}
+
+.nav-right ul li a:hover {
+    background: #0097e6;
+    border-radius: 7%;
+}
+
+.nav-left img {
+    width: 50px;
+}
+
+.presentation {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile img {
+    width: 160px;
+    border: ridge 4px #0097e6;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+.profile img:hover {
+    cursor: pointer;
+    transform: scale(1.06, 1.06);
+}
+
+.profil {
+    font-size: 100px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #0097e6;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.pen span {
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.1rem;
+}
+
+.btn {
+    margin-top: 100px;
+    background: #0097e6;
+    width: 150px;
+    height: 48px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: scale(1.06, 1.06);
+}
+
+.presentation h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.presentation p {
+    padding: 10px 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.parcours {
+    margin-top: 50px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px ridge #0097e6;
+}
+
+.parcours h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #0097e6;
+}
+
+.parcours p {
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.box-row {
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 25px 40px;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.box img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.box {
+    border: 1px ridge #0097e6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: unset;
+}
+
+.box p {
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 5px;
+    background: unset;
+}
+
+.work-list {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    padding: 25px 40px;
+}
+
+.flex-div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 7px;
+}
+
+.work-list .work-img {
+    width: 100%;
+    border: #0097e6 1px solid;
+    border-radius: 5px;
+}
+
+.work-info h2 {
+    color: #0097e6;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.work-info p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.work-list-title {
+    border-top: 1px ridge #0097e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.work-list-title h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #0097e6;
+    background: unset;
+}
+
+.btn-code {
+    background: #0097e6;
+    color: #fff;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+}
+
+.btn-code:hover {
+    transform: scale(1.06, 1.06);
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: #0097e6 solid 1px;
+    padding-top: 30px;
+}
+
+.contact h2 {
+    color: #0097e6;
+    font-size: 3.5rem;
+}
+
+.info {
+    width: 300px;
+    height: 250px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #0097e6 1px ridge;
+    padding: 20px;
+}
+
+.info div h4 {
+    margin-top: 20px;
+    color: #0097e6;
+}
+
+.info div span {
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: #0097e6 solid 1px;
+    padding-top: 30px;
+}
+
+footer h2 {
+    color: #0097e6;
+}
+
+footer span {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+footer p {
+    text-align: center;
+    line-height: 1.2rem;
+    margin-bottom: 100px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons img {
+    width: 32px;
+    margin: 7px;
+}
+
+@media (max-width: 900px) {
+    .nav-left img {
+        width: 40px;
+    }
+    .nav-right ul li a {
+        padding: 18px;
+    }
+    .profil {
+        font-size: 60px;
+    }
+    .profile img {
+        margin-bottom: 70px;
+    }
+    .pen span {
+        font-size: 1rem;
+    }
+    .btn {
+        margin-top: 70px;
+    }
+    .presentation {
+        padding-top: 50px;
+    }
+    .presentation h2 {
+        font-size: 1.4rem;
+        margin-top: 60px;
+    }
+    .presentation p {
+        padding: 10px 40px;
+        text-align: center;
+    }
+    .parcours h1 {
+        font-size: 2.5rem;
+    }
+    .parcours p {
+        padding: 10px 30px;
+        text-align: justify;
+    }
+    .box-row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box {
+        width: 300px;
+        min-height: 200px;
+        height: auto;
+        margin-top: 20px;
+    }
+    .box img {
+        width: 40px;
+    }
+    .work-info p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .work-list-title h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #0097e6;
+        background: unset;
+    }
+    .work-list-title span {
+        font-size: 13px;
+        text-align: center;
+    }
+    .contact h2 {
+        font-size: 2.5rem;
+        background: unset;
+    }
+    .contact span {
+        text-align: center;
+        padding: 30px;
+        line-height: 1.2rem;
+        background: unset;
+    }
+    .info div h4 {
+        padding-bottom: 8px;
+        padding-left: 30px;
+        background: unset;
+    }
+    .info div span {
+        background: unset;
+    }
+}
